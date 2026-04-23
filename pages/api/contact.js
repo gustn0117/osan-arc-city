@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import crypto from "crypto";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -19,11 +20,14 @@ export default async function handler(req, res) {
   }
 
   const entry = {
+    id: crypto.randomUUID(),
     at: new Date().toISOString(),
     name: String(name).slice(0, 40),
     phone: String(phone).slice(0, 30),
     unit: String(unit || "").slice(0, 30),
     message: String(message || "").slice(0, 1000),
+    status: "new",
+    memo: "",
   };
 
   try {
