@@ -192,42 +192,65 @@ export default function Home() {
 
       {/* Hero */}
       <section id="top" className="hero">
+        <div className="hero-backdrop" aria-hidden="true">ARC CITY</div>
+        <div className="hero-sideline" aria-hidden="true" />
+        <div className="hero-corner tl">
+          <span className="dot" />
+          THE SHARP · OSAN STATION ARC CITY
+        </div>
+        <div className="hero-corner tr">
+          <span>PROJECT</span>
+          <strong>N°001</strong>
+          <span>2029</span>
+        </div>
+
         <div className="container hero-inner">
-          <span className="hero-kicker">경기도 오산시 가수동 453번지 · M1BL</span>
+          <span className="hero-kicker">
+            <span className="hero-kicker-bar" />
+            경기도 오산시 가수동 453번지 · 세교2지구 M1BL
+          </span>
           <h1>
             세교2지구 유일한 슬세권,<br />
-            오산 최고층 <span className="accent">44F 랜드마크</span>
+            오산 <span className="accent">최고층 44F</span> 랜드마크
           </h1>
           <p className="hero-sub">
-            더샵 오산역아크시티는 1호선 오산역 도보 10분 거리, 세교2지구 유일한 주상복합 용지에 들어서는
-            총 987세대 대규모 단지입니다. 10년 장기임대 후 분양전환 우선권이 부여되는
-            공공지원민간임대주택으로, 무주택 자격 유지와 합리적 가격 메리트를 동시에 누리세요.
+            1호선 오산역 도보 10분, 세교2지구 유일한 주상복합 용지에 들어서는 총 987세대 대규모 단지.
+            10년 장기임대 후 분양전환 우선권이 부여되는 공공지원민간임대주택으로,
+            무주택 자격 유지와 합리적 가격 메리트를 동시에 누리세요.
           </p>
+
+          <div className="hero-ctas">
+            <a href="#contact" className="btn-primary">
+              방문 예약·문의
+              <span className="btn-arrow">→</span>
+            </a>
+            <a href="#overview" className="btn-ghost">사업 개요 보기</a>
+          </div>
 
           <div className="hero-stats">
             <div className="hero-stat">
-              <div className="num">44F</div>
+              <div className="num">44<em>F</em></div>
               <div className="label">오산 최고층</div>
             </div>
             <div className="hero-stat">
-              <div className="num">897세대</div>
+              <div className="num">897<em>세대</em></div>
               <div className="label">아파트 대규모</div>
             </div>
             <div className="hero-stat">
-              <div className="num">1.50대</div>
+              <div className="num">1.50<em>대</em></div>
               <div className="label">세대당 주차</div>
             </div>
             <div className="hero-stat">
-              <div className="num">2029년</div>
+              <div className="num">2029<em>년</em></div>
               <div className="label">입주 예정</div>
             </div>
           </div>
-
-          <div className="hero-ctas">
-            <a href="#contact" className="btn-primary">방문 예약·문의</a>
-            <a href="#overview" className="btn-ghost">사업 개요 보기</a>
-          </div>
         </div>
+
+        <a href="#overview" className="hero-scroll" aria-label="아래로 스크롤">
+          <span className="hero-scroll-label">SCROLL</span>
+          <span className="hero-scroll-line" />
+        </a>
       </section>
 
       {/* Overview */}

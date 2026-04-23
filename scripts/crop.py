@@ -41,8 +41,8 @@ CROPS = [
     ("page-19.png", (295, 100, 755, 475), "unit-84b.png"),
     # 104A 평면도 (page-22)
     ("page-22.png", (295, 100, 755, 475), "unit-104a.png"),
-    # 클럽 더샵 3D 일러스트 (page-26, illustrations without bottom spec table)
-    ("page-26.png", (20, 275, 1600, 495), "community.png"),
+    # 클럽 더샵 3D 일러스트 + 시설표 (page-26)
+    ("page-26.png", (30, 275, 1580, 760), "community.png"),
 ]
 
 for src, (x, y, w, h), out in CROPS:

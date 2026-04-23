@@ -62,3 +62,8 @@ Warning: viewport meta tags should not be used in _document.js's <Head>. https:/
  ✓ Compiled in 75ms (269 modules)
  ✓ Compiled in 71ms (269 modules)
  ✓ Compiled in 104ms (269 modules)
+ GET / 200 in 30ms
+ GET / 200 in 22ms
+ GET / 200 in 15ms
+ ✓ Compiled in 94ms (269 modules)
+ ✓ Compiled in 146ms (269 modules)
