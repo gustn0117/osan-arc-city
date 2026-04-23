@@ -174,10 +174,6 @@ export default function Home() {
       {/* Nav */}
       <nav className="nav">
         <div className="container nav-inner">
-          <a href="#top" className="nav-logo">
-            <span className="mark">T</span>
-            더샵 오산역아크시티
-          </a>
           <div className="nav-menu">
             <a href="#overview">사업개요</a>
             <a href="#premium">프리미엄</a>
@@ -193,20 +189,13 @@ export default function Home() {
       {/* Hero */}
       <section id="top" className="hero">
         <div className="hero-backdrop" aria-hidden="true">ARC CITY</div>
-        <div className="hero-sideline" aria-hidden="true" />
         <div className="hero-corner tl">
           <span className="dot" />
           THE SHARP · OSAN STATION ARC CITY
         </div>
-        <div className="hero-corner tr">
-          <span>PROJECT</span>
-          <strong>N°001</strong>
-          <span>2029</span>
-        </div>
 
         <div className="container hero-inner">
           <span className="hero-kicker">
-            <span className="hero-kicker-bar" />
             경기도 오산시 가수동 453번지 · 세교2지구 M1BL
           </span>
           <h1>
