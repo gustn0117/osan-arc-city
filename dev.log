@@ -54,3 +54,11 @@ Warning: viewport meta tags should not be used in _document.js's <Head>. https:/
  ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
  ✓ Compiled / in 93ms (271 modules)
  GET / 200 in 70ms
+ ✓ Compiled in 70ms (269 modules)
+ ✓ Compiled in 100ms (269 modules)
+ GET / 200 in 31ms
+ ✓ Compiled in 86ms (269 modules)
+ ✓ Compiled in 79ms (269 modules)
+ ✓ Compiled in 75ms (269 modules)
+ ✓ Compiled in 71ms (269 modules)
+ ✓ Compiled in 104ms (269 modules)

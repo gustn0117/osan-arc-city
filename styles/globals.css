@@ -128,7 +128,12 @@ button {
   position: relative;
   min-height: 100vh;
   padding: 140px 0 80px;
-  background: linear-gradient(135deg, #081026 0%, #0f2046 50%, #1a3570 100%);
+  background-color: #081026;
+  background-image:
+    linear-gradient(135deg, rgba(8, 16, 38, 0.82) 0%, rgba(15, 32, 70, 0.72) 45%, rgba(26, 53, 112, 0.55) 100%),
+    url("/img/hero.jpg");
+  background-size: cover;
+  background-position: center;
   color: #fff;
   overflow: hidden;
   display: flex;

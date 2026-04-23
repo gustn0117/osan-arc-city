@@ -11,7 +11,7 @@ const UNITS = {
     useful: "37.60평",
     view: "단지 VIEW / CITY VIEW / 오산천 VIEW",
     feature: "4BAY 맞통풍 판상형 구조 · 3룸+알파룸 · 대형 현관창고 특화",
-    img: "/img/unit-84a.png",
+    img: "/img/unit-84a.jpg",
   },
   "84B": {
     tag: "스타일리쉬 이면개방형",
@@ -22,7 +22,7 @@ const UNITS = {
     useful: "36.11평",
     view: "단지 VIEW / CITY VIEW / 오산천 VIEW",
     feature: "스타일리쉬 이면개방형 · 3룸+알파룸 · 케어룸 · 현관창고 특화",
-    img: "/img/unit-84b.png",
+    img: "/img/unit-84b.jpg",
   },
   "104A": {
     tag: "쾌적한 오산천뷰",
@@ -33,7 +33,7 @@ const UNITS = {
     useful: "45.56평",
     view: "오산천 VIEW (전세대)",
     feature: "희소가치 高 중대형 · 3룸+알파룸 · 쾌적한 오산천 조망 · 대형 현관창고",
-    img: "/img/unit-104a.png",
+    img: "/img/unit-104a.jpg",
   },
 };
 
@@ -246,7 +246,7 @@ export default function Home() {
 
           <div className="overview-grid">
             <div className="overview-visual">
-              <img src="/img/rendering.png" alt="더샵 오산역아크시티 조감도" />
+              <img src="/img/rendering.jpg" alt="더샵 오산역아크시티 조감도" />
             </div>
             <div>
               <table className="overview-table">
@@ -338,7 +338,7 @@ export default function Home() {
 
           <div className="location-grid">
             <div className="location-visual">
-              <img src="/img/location-map.png" alt="오산역 세교2지구 입지도" />
+              <img src="/img/aerial-view.jpg" alt="오산역 세교2지구 항공뷰 · 오산천 조망" />
             </div>
             <ul className="location-list">
               {LOCATION.map((l) => (
@@ -526,7 +526,7 @@ export default function Home() {
           </div>
 
           <div className="full-visual">
-            <img src="/img/site-plan.png" alt="더샵 오산역아크시티 단지 배치도" />
+            <img src="/img/site-view.jpg" alt="더샵 오산역아크시티 단지 조감도" />
           </div>
           <p className="visual-caption">
             ■ 84A (346세대) · ■ 84B (233세대) · ■ 104A (318세대) · ■ E/V 위치
